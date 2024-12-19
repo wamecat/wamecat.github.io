@@ -1,0 +1,44 @@
+html{
+    background-image: url("../imags/background3.jpg");
+    background-size:1600px
+}
+h1{
+    text-align: center;
+    color:aqua
+}
+.candle-cake{
+    text-align: center;
+    position: relative;
+}
+
+.candle4{
+  position: absolute;
+  top: 10px;
+  left: 530px;
+  width: 200px;
+  
+}
+.candle8{
+    position: absolute;
+    top: 0;
+    right: 520px;
+    width: 170px;
+
+    
+  }
+  .candle1{
+    position:absolute;
+    top:10px;
+    width:130px;
+    right:670px;
+  }
+.cake{
+    position:relative; 
+    top:70px;
+    width: 700px;
+    height: 700px;
+}
+.get-in{
+    opacity: 0;
+    transition: opacity 1s ease - in - out;
+}
